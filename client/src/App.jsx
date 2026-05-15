@@ -20,7 +20,10 @@ const App = () => {
   }
 
   return (
-    <div className="bg-[url('/src/assets/purplee.jpg')] bg-cover min-h-screen">
+   <div
+  className="bg-cover bg-center min-h-screen"
+  style={{ backgroundImage: "url('/purplee.jpg')" }}
+>
       <Toaster />
 
       <Routes>
